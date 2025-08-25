@@ -43,7 +43,7 @@ CRYPTOGRAPHY_KEY = os.getenv("CRYPTOGRAPHY_KEY", "")
 EMAIL_ALERTAS_ECAC = os.getenv("EMAIL_ALERTAS_ECAC", EMAIL_USER)
 
 # Constantes
-DB_FILE = "sistema_consultas2.db"
+DB_FILE = os.getenv("DATABASE_PATH", "sistema_consultas2.db")
 CERTIFICADOS_DIR = Path("certificados_grupos")
 RESULTADOS_DIR = Path("resultados_consultas")
 ERROS_DIR = Path("erros_consultas")

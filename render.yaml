@@ -3,18 +3,30 @@ services:
   - type: web
     name: api-cnd-fiscal
     env: python
+    plan: free  # <-- IMPORTANTE: Especifica o plano gratuito
     buildCommand: "pip install -r requirements.txt"
     startCommand: "gunicorn -w 4 -k uvicorn.workers.UvicornWorker api:app"
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.7 # Use uma versão próxima da sua
+        value: 3.11.7
+      - key: DATABASE_PATH # Aponta para o banco de dados no disco
+        value: /var/data/sistema_consultas2.db
+    disks:
+      - name: data # Nome do disco
+        mountPath: /var/data # Onde o disco será "montado"
 
   # Serviço 2: O Worker de Background
   - type: worker
     name: api-worker
     env: python
+    plan: free  # <-- IMPORTANTE: Especifica o plano gratuito
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python worker.py"
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.7
+      - key: DATABASE_PATH # Aponta para o mesmo banco de dados
+        value: /var/data/sistema_consultas2.db
+    disks:
+      - name: data # Nome do disco
+        mountPath: /var/data # Monta o mesmo disco
