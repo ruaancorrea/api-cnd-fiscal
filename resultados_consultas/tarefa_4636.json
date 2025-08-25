@@ -1,0 +1,10 @@
+{
+  "CNPJ": "56.429.081/0001-02",
+  "Nome": "PANIFICADORA BARTEL LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Omissão de DCTFWeb; Periodo apuracao: 2024 - AGO SET OUT NOV DEZ\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': 'SIMPLES NAC.', 'pa_exercicio': '03/2025', 'data_vencimento': '22/04/2025', 'normalziado_data_vencimento': '22/04/2025', 'normalizado_data_vencimento': '22/04/2025', 'valor_original': '486,43', 'normalizado_valor_original': 486.43, 'saldo_devedor': '486,43', 'normalizado_saldo_devedor': 486.43, 'situacao': 'DEVEDOR', 'multa': '97,28', 'normalizado_multa': 97.28, 'juros': '21,98', 'normalizado_juros': 21.98, 'saldo_devedor_cons': '605,69', 'normalizado_saldo_devedor_cons': 605.69}, {'receita': 'SIMPLES NAC.', 'pa_exercicio': '04/2025', 'data_vencimento': '28/05/2025', 'normalziado_data_vencimento': '28/05/2025', 'normalizado_data_vencimento': '28/05/2025', 'valor_original': '603,38', 'normalizado_valor_original': 603.38, 'saldo_devedor': '603,38', 'normalizado_saldo_devedor': 603.38, 'situacao': 'DEVEDOR', 'multa': '120,67', 'normalizado_multa': 120.67, 'juros': '20,39', 'normalizado_juros': 20.39, 'saldo_devedor_cons': '744,44', 'normalizado_saldo_devedor_cons': 744.44}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/mpAIVWWlv2a8g8mq3q7m-WpHRGk9fr27o5HoiDTWj6k=/1756415683/MND00l/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTgxNDQzL1FnRUs1azAwZUlXU2owOXhqT2pCQXNCbWlwNE44V1dsLzMyYTRlNjk5ZWE4MTQzY2Q1MjBjOGYwYTcxNWY4MGJjXzBfUHNV.pdf"
+}

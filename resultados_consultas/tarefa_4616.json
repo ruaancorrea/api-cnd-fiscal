@@ -1,0 +1,10 @@
+{
+  "CNPJ": "05.271.136/0001-50",
+  "Nome": "JVCR REPRESENTACOES LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Parcelamento com Exigibilidade Suspensa (PARCSN/PARCMEI)\n  - Tipo: Pendência - Processo Fiscal (SIEF); Debitos: [{'processo': '19414.887.582/2023-94', 'sitaucao': 'DEVEDOR', 'situacao': 'DEVEDOR', 'localizacao': 'SETOR PROC ELETRONICO REFIS DRF BHE MG'}, {'processo': '19414.887.644/2023-68', 'sitaucao': 'DEVEDOR', 'situacao': 'DEVEDOR', 'localizacao': 'SETOR PROC ELETRONICO REFIS DRF BHE MG'}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/lhlmqGas7Q1CBURmXinBaSjrMAK5fTcSAMwY0ny4g2Y=/1756415526/XC1BXV/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTgxMjA2L2ZxenBaNEhmWTl3LURacUdXaTFaajY2QzFsWDgxX21hLzNiNTEyMjJjYjE1M2U1ODY0NjBmZGMwZWMwM2MyZTcyXzBfdExz.pdf"
+}

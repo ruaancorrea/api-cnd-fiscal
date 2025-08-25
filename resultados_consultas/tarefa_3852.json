@@ -1,0 +1,10 @@
+{
+  "CNPJ": "19.081.187/0001-23",
+  "Nome": "AGROPECUARIA AGILE LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Pendência - Omissão de GFIP; Periodo apuracao: 2021 - FEV\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '5440-01 - MAED - DCTFWEB', 'pa_exercicio': '17/11/2021', 'data_vencimento': '30/07/2025', 'normalziado_data_vencimento': '30/07/2025', 'normalizado_data_vencimento': '30/07/2025', 'valor_original': '100,00', 'normalizado_valor_original': 100.0, 'saldo_devedor': '100,00', 'normalizado_saldo_devedor': 100.0, 'situacao': 'DEVEDOR', 'multa': '100,00', 'normalizado_multa': 100.0, 'juros': '1,00', 'normalizado_juros': 1.0, 'saldo_devedor_cons': '101,00', 'normalizado_saldo_devedor_cons': 101.0}, {'receita': '1099-01 - CP-SEGUR.', 'pa_exercicio': '06/2025', 'data_vencimento': '18/07/2025', 'normalziado_data_vencimento': '18/07/2025', 'normalizado_data_vencimento': '18/07/2025', 'valor_original': '166,98', 'normalizado_valor_original': 166.98, 'saldo_devedor': '166,98', 'normalizado_saldo_devedor': 166.98, 'situacao': 'DEVEDOR', 'multa': '17,63', 'normalizado_multa': 17.63, 'juros': '1,66', 'normalizado_juros': 1.66, 'saldo_devedor_cons': '186,27', 'normalizado_saldo_devedor_cons': 186.27}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/-CZDEduhz-zGh42n6Xb716lT6-YSh4jK7iii1r3hVrE=/1756405983/HlaLjh/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTUzMzAzL243QTROTmVvNnFqVHUtQk5BLWVEZHFuVWtoVWo4SnVPL2RkMjkyOGZhMGQwMDFhZTYwYTNjMTU1MmI0MmI4Mzg1XzBfeFJB.pdf"
+}

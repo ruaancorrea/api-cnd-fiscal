@@ -1,0 +1,10 @@
+{
+  "CNPJ": "03.646.675/0001-09",
+  "Nome": "ECONOMICA CONFECCOES LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Pendência - Divergência GFIP x GPS (AGUIA); Divergencias: [{'competencia': '05/2020', 'fpas': '515', 'situacao': 'OPS', 'rubruca': 'Previdência', 'valor': '82,06', 'normalizado_valor': 82.06}, {'competencia': '09/2020', 'fpas': '515', 'situacao': 'OPS', 'rubruca': 'Previdência', 'valor': '82,06', 'normalizado_valor': 82.06}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/FuSOr2S5-RDYLder-RI4IFBWmCIwygzh3B9LJ_tLEq8=/1756408453/vPPgBU/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTYxNDEzL04xTGd2RTFpZzYxVU9RWURiejItQnNmZmgwVEpIQUZ4L2U4MTk3NmNjN2UzNmFmMDgwMWExYzVlNzAxNTcwOWQ2XzBfRlBj.pdf"
+}

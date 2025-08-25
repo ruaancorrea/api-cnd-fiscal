@@ -1,0 +1,10 @@
+{
+  "CNPJ": "02.088.634/0001-73",
+  "Nome": "DRAGA CRIS LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Procuradoria-Geral (PGFN):**\n  - Tipo: Inscrição com Exigibilidade Suspensa (SIDA); Cnpj: 02.088.634/0001-73; Inscricoes: [{'inscricao': '60.4.23.195068-41', 'receita': '4133-CONTR.', 'inscrito_em': '19/06/2023', 'ajuizado_em': None, 'processo': '14966.411.323/2023-26', 'tipo_devedor': 'DEVEDOR PRINCIPAL', 'situacao': 'ATIVA NAO AJUIZAVEL NEGOCIADA NO SISPAR'}, {'inscricao': '60.4.23.195069-22', 'receita': '4156-CONTR.', 'inscrito_em': '19/06/2023', 'ajuizado_em': None, 'processo': '14966.411.323/2023-26', 'tipo_devedor': 'DEVEDOR PRINCIPAL', 'situacao': 'ATIVA NAO AJUIZAVEL NEGOCIADA NO SISPAR'}, {'inscricao': '60.4.24.465629-10', 'receita': '4133-CONTR.', 'inscrito_em': '11/11/2024', 'ajuizado_em': None, 'processo': '14966.779.583/2024-87', 'tipo_devedor': 'DEVEDOR PRINCIPAL', 'situacao': 'ATIVA NAO AJUIZAVEL NEGOCIADA NO SISPAR'}, {'inscricao': '60.4.24.465630-54', 'receita': '4156-CONTR.', 'inscrito_em': '11/11/2024', 'ajuizado_em': None, 'processo': '14966.779.583/2024-87', 'tipo_devedor': 'DEVEDOR PRINCIPAL', 'situacao': 'ATIVA NAO AJUIZAVEL NEGOCIADA NO SISPAR'}]\n  - Tipo: Parcelamento com Exigibilidade Suspensa (SISPAR); Cnpj: 02.088.634/0001-73; Pendencias: [{'conta': '013353884', 'descricao': 'PARCELAMENTO CONVENCIONAL', 'modalidade': 'PARCELAMENTO SEM GARANTIA - PESSOA JURIDICA - DIVIDA PREVIDENCIARIA - ATE 15 MILHOES DE REAIS'}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/txwwxuXk9nC518kCUjrZEPiIdqGeaXqFHlH3j1VRvJM=/1756401925/qsw5Nl/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTQyNTI1LzBqVmotaXhKNGh5Qi10aFpDWHJHdkEyV2dkUGUyU3lrLzY3NWIzMjUwMzEzNmQ5OGRkNzEyMDRiMzkwNGRhOTM2XzBfdzZF.pdf"
+}

@@ -1,0 +1,10 @@
+{
+  "CNPJ": "52.637.975/0001-29",
+  "Nome": "QUEIJOS BURACAS LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': 'SIMPLES NAC.', 'pa_exercicio': '12/2024', 'data_vencimento': '20/01/2025', 'normalziado_data_vencimento': '20/01/2025', 'normalizado_data_vencimento': '20/01/2025', 'valor_original': '100,90', 'normalizado_valor_original': 100.9, 'saldo_devedor': '100,90', 'normalizado_saldo_devedor': 100.9, 'situacao': 'DEVEDOR', 'multa': '20,18', 'normalizado_multa': 20.18, 'juros': '7,59', 'normalizado_juros': 7.59, 'saldo_devedor_cons': '128,67', 'normalizado_saldo_devedor_cons': 128.67}, {'receita': 'SIMPLES NAC.', 'pa_exercicio': '01/2025', 'data_vencimento': '20/02/2025', 'normalziado_data_vencimento': '20/02/2025', 'normalizado_data_vencimento': '20/02/2025', 'valor_original': '69,37', 'normalizado_valor_original': 69.37, 'saldo_devedor': '69,37', 'normalizado_saldo_devedor': 69.37, 'situacao': 'DEVEDOR', 'multa': '13,87', 'normalizado_multa': 13.87, 'juros': '4,53', 'normalizado_juros': 4.53, 'saldo_devedor_cons': '87,77', 'normalizado_saldo_devedor_cons': 87.77}, {'receita': 'SIMPLES NAC.', 'pa_exercicio': '05/2025', 'data_vencimento': '20/06/2025', 'normalziado_data_vencimento': '20/06/2025', 'normalizado_data_vencimento': '20/06/2025', 'valor_original': '386,30', 'normalizado_valor_original': 386.3, 'saldo_devedor': '386,30', 'normalizado_saldo_devedor': 386.3, 'situacao': 'DEVEDOR', 'multa': '76,48', 'normalizado_multa': 76.48, 'juros': '8,80', 'normalizado_juros': 8.8, 'saldo_devedor_cons': '471,58', 'normalizado_saldo_devedor_cons': 471.58}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/sPFTXpOw7g1a_BLfiuwXMuPdsxYqMBsqtqpcnYZE3cw=/1756411652/Z8smSY/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTcwNzMyLzY4a2MtMjV6R3BaMGIxcW41NVphbDV5QUc3V3JUdFZmL2FlNWJhZjk2ZDQ0ZDExYWVmZWJlZDkxMzRiZGU1MjkwXzBfSG1r.pdf"
+}

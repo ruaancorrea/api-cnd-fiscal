@@ -1,0 +1,10 @@
+{
+  "CNPJ": "20.885.657/0001-90",
+  "Nome": "ANTUNES SIMOES ESPACO SAUDE E BEM ESTAR LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Omissão de DIRF; Anos retencao: ['2021']\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '1708-06 - IRRF', 'pa_exercicio': '02/2025', 'data_vencimento': '20/03/2025', 'normalziado_data_vencimento': '20/03/2025', 'normalizado_data_vencimento': '20/03/2025', 'valor_original': '49,60', 'normalizado_valor_original': 49.6, 'saldo_devedor': '49,60', 'normalizado_saldo_devedor': 49.6, 'situacao': 'DEVEDOR', 'multa': '9,92', 'normalizado_multa': 9.92, 'juros': '2,76', 'normalizado_juros': 2.76, 'saldo_devedor_cons': '62,28', 'normalizado_saldo_devedor_cons': 62.28}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/9Wen4T39x4rTmoDSlrLjmx8PHXph5zm8dIsPGit1_so=/1756408398/aI44ES/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTYxMzE4L29SNTZhWU9tTUw4X1FrcVQwU2FyZVNpdW96YmtpSk4xL2QzMzdlYzA4MjBhOGIzMWU4MmE0ZDlhYWE3NmZjYjA3XzBfQlFz.pdf"
+}

@@ -1,0 +1,10 @@
+{
+  "CNPJ": "01.607.973/0001-56",
+  "Nome": "HELIO P. DE CARVALHO",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '5440-01 - MAED - DCTFWEB', 'pa_exercicio': '16/12/2021', 'data_vencimento': '21/11/2024', 'normalziado_data_vencimento': '21/11/2024', 'normalizado_data_vencimento': '21/11/2024', 'valor_original': '100,00', 'normalizado_valor_original': 100.0, 'saldo_devedor': '100,00', 'normalizado_saldo_devedor': 100.0, 'situacao': 'DEVEDOR', 'multa': '100,00', 'normalizado_multa': 100.0, 'juros': '9,47', 'normalizado_juros': 9.47, 'saldo_devedor_cons': '109,47', 'normalizado_saldo_devedor_cons': 109.47}]\n  - Tipo: Débito com Exigibilidade Suspensa (SIEF)",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/sMDDztvFL9fNUd3DOt82aQJ4qBH8GXl6bv6wSkSelk8=/1756415293/Kes5T0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTgwODEzL3lYeXVhcmRhRms5ZWppXy1tU05HUExMeXc2MmFCV050L2JlMTc1NjVlOWUxODY0NmExNzZkNGY3YmIzNGMzNDQzXzBfWGxv.pdf"
+}

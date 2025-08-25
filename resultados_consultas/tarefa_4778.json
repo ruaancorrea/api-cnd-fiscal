@@ -1,0 +1,10 @@
+{
+  "CNPJ": "59.418.420/0001-35",
+  "Nome": "MARCELA GIACCHERO MIRANDA ODONTOLOGIA LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': 'SIMPLES NAC.', 'pa_exercicio': '05/2025', 'data_vencimento': '20/06/2025', 'normalziado_data_vencimento': '20/06/2025', 'normalizado_data_vencimento': '20/06/2025', 'valor_original': '777,98', 'normalizado_valor_original': 777.98, 'saldo_devedor': '777,98', 'normalizado_saldo_devedor': 777.98, 'situacao': 'DEVEDOR', 'multa': '154,04', 'normalizado_multa': 154.04, 'juros': '17,73', 'normalizado_juros': 17.73, 'saldo_devedor_cons': '949,75', 'normalizado_saldo_devedor_cons': 949.75}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/iQVjaskQ_655xD6bkxL41dmfrGLRFKOc9kuW1LEV_dA=/1756417098/ttcnqT/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTgzODE4L20xdEU5YVVWd2FtdGhmNmRLcmx4WmFWT2lyY0hublRjLzMzNTU4Y2RmOWY1YmI2OWNhZmY2NjEwMDk3MWJhZGFjXzBfSFJr.pdf"
+}

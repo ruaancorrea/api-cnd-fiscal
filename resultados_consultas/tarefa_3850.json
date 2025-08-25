@@ -1,0 +1,10 @@
+{
+  "CNPJ": "19.178.784/0001-70",
+  "Nome": "TERRA VIVA CONSULTORIA E MINERACAO LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Parcelamento com Exigibilidade Suspensa (PARCSN/PARCMEI)\n  - Tipo: Débito com Exigibilidade Suspensa (SIEF)\n\n**Pendências na Procuradoria-Geral (PGFN):**\n  - Tipo: Inscrição com Exigibilidade Suspensa (SIDA); Cnpj: 19.178.784/0001-70; Inscricoes: [{'inscricao': '60.4.21.084208-40', 'receita': '1507-SIMPLES', 'inscrito_em': '06/07/2021', 'ajuizado_em': None, 'processo': '12376.665.497/2021-60', 'tipo_devedor': 'DEVEDOR PRINCIPAL', 'situacao': 'ATIVA NAO AJUIZAVEL NEGOCIADA NO SISPAR'}]\n  - Tipo: Parcelamento com Exigibilidade Suspensa (SISPAR); Cnpj: 19.178.784/0001-70; Pendencias: [{'conta': '005438838', 'descricao': 'TRANSACAO - DEMAIS DEBITOS', 'modalidade': 'TRANSACAO EXTRAORDINARIA - SIMPLES NACIONAL - MICROEMPRESA E EMPRESA DE PEQUENO PORTE - 142 MESES'}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/D6VfV_6BMJQ323ywrXYxGBL8skAx6XaDs1npZPw3GPI=/1756405935/gapEj1/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTUzMjE1L1hxLWJHeTVBUGdwUWR0ME5MQzBwaXJMM1E1eU4wcjR1LzM2NGY2ZTNmMGE3ZDNkNjA3NDQ5NGZiZjIyZGIyOGM3XzBfbUcw.pdf"
+}

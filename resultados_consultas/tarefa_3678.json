@@ -1,0 +1,10 @@
+{
+  "CNPJ": "25.529.676/0001-06",
+  "Nome": "ANDRE TEIXEIRA DE SOUSA CPF 058.377.986.76",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '1082-01 - CP-SEGUR.', 'pa_exercicio': '11/2024', 'data_vencimento': '20/12/2024', 'normalziado_data_vencimento': '20/12/2024', 'normalizado_data_vencimento': '20/12/2024', 'valor_original': '265,18', 'normalizado_valor_original': 265.18, 'saldo_devedor': '79,06', 'normalizado_saldo_devedor': 79.06, 'situacao': 'DEVEDOR', 'multa': '15,81', 'normalizado_multa': 15.81, 'juros': '6,75', 'normalizado_juros': 6.75, 'saldo_devedor_cons': '101,62', 'normalizado_saldo_devedor_cons': 101.62}, {'receita': '1099-01 - CP-SEGUR.', 'pa_exercicio': '11/2024', 'data_vencimento': '20/12/2024', 'normalziado_data_vencimento': '20/12/2024', 'normalizado_data_vencimento': '20/12/2024', 'valor_original': '155,32', 'normalizado_valor_original': 155.32, 'saldo_devedor': '155,32', 'normalizado_saldo_devedor': 155.32, 'situacao': 'DEVEDOR', 'multa': '31,06', 'normalizado_multa': 31.06, 'juros': '13,26', 'normalizado_juros': 13.26, 'saldo_devedor_cons': '199,64', 'normalizado_saldo_devedor_cons': 199.64}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/iyIymMlsggUIN1m_TdadxvqlbTV7Mq6VHN1ZPsnm0O0=/1756402417/tmDZYW/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTQzMzM3L2dWUWdfZWltclVkbEdZVDVCcU5GVTdWaVh3Y0hvWkcwLzkyMDA4Y2UwZWQ1NDY2MWRmMWE3YTY0YTJhZTIzMDI4XzBfNkxr.pdf"
+}

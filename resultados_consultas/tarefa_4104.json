@@ -1,0 +1,10 @@
+{
+  "CNPJ": "37.821.310/0001-87",
+  "Nome": "OFICINA DAS TINTAS GESTAO DE ATIVOS LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '1150-04 - IOF', 'pa_exercicio': '3º 02/2025', 'data_vencimento': '07/03/2025', 'normalziado_data_vencimento': '07/03/2025', 'normalizado_data_vencimento': '07/03/2025', 'valor_original': '58,30', 'normalizado_valor_original': 58.3, 'saldo_devedor': '58,30', 'normalizado_saldo_devedor': 58.3, 'situacao': 'DEVEDOR', 'multa': '11,66', 'normalizado_multa': 11.66, 'juros': '3,25', 'normalizado_juros': 3.25, 'saldo_devedor_cons': '73,21', 'normalizado_saldo_devedor_cons': 73.21}]\n  - Tipo: Débito com Exigibilidade Suspensa (SIEF)",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/E29z7yZmG-IKOrnV1fj_4l31Rzwo_cKbtRxvNdQeyB0=/1756409437/lfaLLV/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTYzMDM3LzZnNFo5RHZtVTlNbExKTFVPNjM1RzJsejZXcUUxa21oL2FjMTMxYzM0ZDk1MGQ3MjYwZmYyYjlmNjU1ODg1NDliXzBfakxr.pdf"
+}

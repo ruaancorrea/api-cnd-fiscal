@@ -1,0 +1,10 @@
+{
+  "CNPJ": "48.958.564/0001-68",
+  "Nome": "DDP SERVICOS DE APOIO ADMINISTRATIVO LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Parcelamento com Exigibilidade Suspensa (PARCSN/PARCMEI)\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '1082-01 - CP-SEGUR.', 'pa_exercicio': '06/2025', 'data_vencimento': '18/07/2025', 'normalziado_data_vencimento': '18/07/2025', 'normalizado_data_vencimento': '18/07/2025', 'valor_original': '361,79', 'normalizado_valor_original': 361.79, 'saldo_devedor': '361,79', 'normalizado_saldo_devedor': 361.79, 'situacao': 'DEVEDOR', 'multa': '38,20', 'normalizado_multa': 38.2, 'juros': '3,61', 'normalizado_juros': 3.61, 'saldo_devedor_cons': '403,60', 'normalizado_saldo_devedor_cons': 403.6}, {'receita': 'SIMPLES NAC.', 'pa_exercicio': '06/2025', 'data_vencimento': '21/07/2025', 'normalziado_data_vencimento': '21/07/2025', 'normalizado_data_vencimento': '21/07/2025', 'valor_original': '403,20', 'normalizado_valor_original': 403.2, 'saldo_devedor': '403,20', 'normalizado_saldo_devedor': 403.2, 'situacao': 'DEVEDOR', 'multa': '41,24', 'normalizado_multa': 41.24, 'juros': '4,03', 'normalizado_juros': 4.03, 'saldo_devedor_cons': '448,47', 'normalizado_saldo_devedor_cons': 448.47}]\n  - Tipo: Débito com Exigibilidade Suspensa (SIEF)\n  - Tipo: Pendência - Processo Fiscal (SIEF); Debitos: [{'processo': '10642.233.977/2024-95', 'sitaucao': 'DEVEDOR', 'situacao': 'DEVEDOR', 'localizacao': 'SETOR PROC ELETRONICO REFIS DRF BHE MG'}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/htkAE58HpqVGpCMwrkjKM4iUwet-l6g8NM7Tn8Grkmg=/1756409538/nxuddG/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTYzMjE4Ly1zZm1mMVdIR05hVUxSTC1HRmZmV1pyZHJ1TlBTbXJ4LzFkZTFlYjVlNzUyMWQ0ZDQzZTFjNTdhNTE3MzVjOGEyXzBfNGtz.pdf"
+}

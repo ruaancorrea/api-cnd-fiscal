@@ -1,0 +1,10 @@
+{
+  "CNPJ": "09.659.298/0001-10",
+  "Nome": "DIAS E NUNES IMOBILIARIA LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '5440-01 - MAED - DCTFWEB', 'pa_exercicio': '16/10/2024', 'data_vencimento': '18/11/2024', 'normalziado_data_vencimento': '18/11/2024', 'normalizado_data_vencimento': '18/11/2024', 'valor_original': '250,00', 'normalizado_valor_original': 250.0, 'saldo_devedor': '250,00', 'normalizado_saldo_devedor': 250.0, 'situacao': 'DEVEDOR', 'multa': '250,00', 'normalizado_multa': 250.0, 'juros': '23,67', 'normalizado_juros': 23.67, 'saldo_devedor_cons': '273,67', 'normalizado_saldo_devedor_cons': 273.67}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/WePplPNBPwBilWJcsBW_yZMIPGY10UjJV8usGFpDfFU=/1756408384/5U5xyR/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTYxMzA0L213a1BOUHJ4azJwLW85RkRrcFhrY19pLTNWaXY3alhNLzQxMzZlZDZmOThhZDE5NTc5NjhmOTBhZDQ5YmM1YzZmXzBfaEk0.pdf"
+}

@@ -1,0 +1,14 @@
+# Ambiente Virtual
+venv/
+.venv/
+
+# Arquivos de Senhas
+.env
+
+# Banco de dados local (vamos usar um online)
+*.db
+*.db-journal
+
+# Arquivos do Python
+__pycache__/
+*.pyc

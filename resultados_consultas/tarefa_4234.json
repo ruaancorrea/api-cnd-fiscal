@@ -1,0 +1,10 @@
+{
+  "CNPJ": "50.197.087/0001-07",
+  "Nome": "CRJ COMERCIO REPRESENTACOES E ASSISTENCIA TECNICA LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '5440-01 - MAED - DCTFWEB', 'pa_exercicio': '16/05/2023', 'data_vencimento': '19/07/2023', 'normalziado_data_vencimento': '19/07/2023', 'normalizado_data_vencimento': '19/07/2023', 'valor_original': '250,00', 'normalizado_valor_original': 250.0, 'saldo_devedor': '250,00', 'normalizado_saldo_devedor': 250.0, 'situacao': 'DEVEDOR', 'multa': '250,00', 'normalizado_multa': 250.0, 'juros': '59,60', 'normalizado_juros': 59.6, 'saldo_devedor_cons': '309,60', 'normalizado_saldo_devedor_cons': 309.6}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/hgqvs-sUtsefegQsvYhVWQEbeEWr_55PHuQjnjd3fuQ=/1756411482/71Gi1E/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTcwNDQyL0Y3LWVmLTNyQVRtanZSZXJUX2lfUkVHelB0SklYbHZ3LzU4YjY1Mjg2OWFkZmRhNTFiMWNlM2JiZDA3MjA2NzM2XzBfWWVj.pdf"
+}

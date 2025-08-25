@@ -1,0 +1,10 @@
+{
+  "CNPJ": "21.970.009/0001-03",
+  "Nome": "POSTO CAPITOLIO LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '8109-02 - PIS', 'pa_exercicio': '09/2024', 'data_vencimento': '25/10/2024', 'normalziado_data_vencimento': '25/10/2024', 'normalizado_data_vencimento': '25/10/2024', 'valor_original': '126,44', 'normalizado_valor_original': 126.44, 'saldo_devedor': '126,44', 'normalizado_saldo_devedor': 126.44, 'situacao': 'DEVEDOR', 'multa': '25,28', 'normalizado_multa': 25.28, 'juros': '12,97', 'normalizado_juros': 12.97, 'saldo_devedor_cons': '164,69', 'normalizado_saldo_devedor_cons': 164.69}, {'receita': '2172-01 - COFINS', 'pa_exercicio': '09/2024', 'data_vencimento': '25/10/2024', 'normalziado_data_vencimento': '25/10/2024', 'normalizado_data_vencimento': '25/10/2024', 'valor_original': '583,57', 'normalizado_valor_original': 583.57, 'saldo_devedor': '583,57', 'normalizado_saldo_devedor': 583.57, 'situacao': 'DEVEDOR', 'multa': '116,71', 'normalizado_multa': 116.71, 'juros': '59,87', 'normalizado_juros': 59.87, 'saldo_devedor_cons': '760,15', 'normalizado_saldo_devedor_cons': 760.15}]\n  - Tipo: Débito com Exigibilidade Suspensa (SIEF)",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/1lgtjGsaG6t3m2zJ1A_TugSCsqaoKWELxRsH724oZm4=/1756411817/8gZ9M7/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTcxMDE3L2dqVFV3UmVNd1pMd3FObVFyN3hPWXB1MFNtLU1YTVZDLzY3N2NlZWU0YmE3NTU4OTVkMTIzNzc3YjdkMjcwNGQyXzBfMTRn.pdf"
+}

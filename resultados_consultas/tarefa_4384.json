@@ -1,0 +1,10 @@
+{
+  "CNPJ": "48.063.417/0001-20",
+  "Nome": "AMAZING VARIEDADES LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '1099-01 - CP-SEGUR.', 'pa_exercicio': '03/2025', 'data_vencimento': '17/04/2025', 'normalziado_data_vencimento': '17/04/2025', 'normalizado_data_vencimento': '17/04/2025', 'valor_original': '179,82', 'normalizado_valor_original': 179.82, 'saldo_devedor': '179,82', 'normalizado_saldo_devedor': 179.82, 'situacao': 'DEVEDOR', 'multa': '35,96', 'normalizado_multa': 35.96, 'juros': '8,12', 'normalizado_juros': 8.12, 'saldo_devedor_cons': '223,90', 'normalizado_saldo_devedor_cons': 223.9}, {'receita': '1099-01 - CP-SEGUR.', 'pa_exercicio': '04/2025', 'data_vencimento': '28/05/2025', 'normalziado_data_vencimento': '28/05/2025', 'normalizado_data_vencimento': '28/05/2025', 'valor_original': '166,98', 'normalizado_valor_original': 166.98, 'saldo_devedor': '166,98', 'normalizado_saldo_devedor': 166.98, 'situacao': 'DEVEDOR', 'multa': '33,39', 'normalizado_multa': 33.39, 'juros': '5,64', 'normalizado_juros': 5.64, 'saldo_devedor_cons': '206,01', 'normalizado_saldo_devedor_cons': 206.01}, {'receita': '1099-01 - CP-SEGUR.', 'pa_exercicio': '06/2025', 'data_vencimento': '18/07/2025', 'normalziado_data_vencimento': '18/07/2025', 'normalizado_data_vencimento': '18/07/2025', 'valor_original': '166,98', 'normalizado_valor_original': 166.98, 'saldo_devedor': '166,98', 'normalizado_saldo_devedor': 166.98, 'situacao': 'DEVEDOR', 'multa': '17,63', 'normalizado_multa': 17.63, 'juros': '1,66', 'normalizado_juros': 1.66, 'saldo_devedor_cons': '186,27', 'normalizado_saldo_devedor_cons': 186.27}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/_Qmug7bpI5pczTKsHdriU_uZ7KdFLWSo8jLb9l9LcNg=/1756413107/ta9kIz/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTczMTQ3L1diTGZOT1Eya2VkMGxMQXZOdm5VaWVrYzM2ZUh0ajZULzgyMGNiNTg3NWVjNTlkNDNmMzViYjFkNjNkMTBlYTU2XzBfMm1J.pdf"
+}

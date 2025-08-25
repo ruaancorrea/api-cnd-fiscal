@@ -1,0 +1,10 @@
+{
+  "CNPJ": "19.562.253/0001-87",
+  "Nome": "PAG LEV ATACAREJO LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '5440-01 - MAED - DCTFWEB', 'pa_exercicio': '16/05/2024', 'data_vencimento': '21/06/2024', 'normalziado_data_vencimento': '21/06/2024', 'normalizado_data_vencimento': '21/06/2024', 'valor_original': '500,00', 'normalizado_valor_original': 500.0, 'saldo_devedor': '500,00', 'normalizado_saldo_devedor': 500.0, 'situacao': 'DEVEDOR', 'multa': '500,00', 'normalizado_multa': 500.0, 'juros': '69,05', 'normalizado_juros': 69.05, 'saldo_devedor_cons': '569,05', 'normalizado_saldo_devedor_cons': 569.05}]\n  - Tipo: Débito com Exigibilidade Suspensa (SIEF)\n  - Tipo: Pendência - Processo Fiscal (SIEF); Debitos: [{'processo': '19414.682.969/2024-37', 'sitaucao': 'DEVEDOR', 'situacao': 'DEVEDOR', 'localizacao': 'SETOR PROC ELETRONICO REFIS DRF BHE MG'}]\n\n**Pendências na Procuradoria-Geral (PGFN):**\n  - Tipo: Pendência - Parcelamento (SISPAR); Cnpj: 19.562.253/0001-87; Pendencias: [{'conta': '008239873', 'descricao': 'PARCELAMENTO CONVENCIONAL', 'modalidade': 'PARCELAMENTO SEM GARANTIA - PESSOA JURIDICA - DIVIDA PREVIDENCIARIA - ATE 15 MILHOES DE REAIS'}]\n  - Tipo: Inscrição com Exigibilidade Suspensa (Sistema DIVIDA); Cnpj: 19.562.253/0001-87; Inscricoes: [{'inscricao': 'Inscrição: 18820410-5', 'situacao': 'Situação: 000731 - NEGOCIADO NO SISPAR'}, {'inscricao': 'Inscrição: 18820411-3', 'situacao': 'Situação: 000731 - NEGOCIADO NO SISPAR'}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/0NYhqa_DVn3SguXhZ5eLgsYRSiIAqKcOk0P9dVUnI4g=/1756414303/y255VU/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTc1MTQzL0ljTF8tYWQxcXBPYXBkb2VUaEpXOFBlRmt4eDdXbWNDLzViZmY5NDcwNzFmMzQ1MzQ0NTg1MzcxZDZjNDg2YWI2XzBfUlBn.pdf"
+}

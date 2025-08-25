@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+pandas
+requests
+python-dotenv
+cryptography
+apscheduler
+aes-everywhere
+openpyxl
+python-multipart
+gunicorn  # <--- ADICIONE ESTA LINHA

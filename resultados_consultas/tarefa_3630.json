@@ -1,0 +1,10 @@
+{
+  "CNPJ": "86.578.200/0001-41",
+  "Nome": "POSTO DE LOURDES LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '1708-06 - IRRF', 'pa_exercicio': '06/2025', 'data_vencimento': '18/07/2025', 'normalziado_data_vencimento': '18/07/2025', 'normalizado_data_vencimento': '18/07/2025', 'valor_original': '17,93', 'normalizado_valor_original': 17.93, 'saldo_devedor': '17,93', 'normalizado_saldo_devedor': 17.93, 'situacao': 'DEVEDOR', 'multa': '1,89', 'normalizado_multa': 1.89, 'juros': '0,17', 'normalizado_juros': 0.17, 'saldo_devedor_cons': '19,99', 'normalizado_saldo_devedor_cons': 19.99}]\n  - Tipo: Débito com Exigibilidade Suspensa (SIEF)",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/yxTbJe7rxi-N6tD0Nk20-9WneINruYupnnm5qzHb5Go=/1756401614/UvAvKW/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTQyMDE0L3FtSWdwbE5PT28yMnJDa1ZZMGk0NWxRVFg1SFhSWE1iL2MyNTk2YWY1Zjc3N2RjNjllYjc1YjdiZjUyMGUzZWZiXzBfLTQ0.pdf"
+}

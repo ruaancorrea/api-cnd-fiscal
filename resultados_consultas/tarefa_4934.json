@@ -1,0 +1,9 @@
+{
+  "CNPJ": "40.202.672/0001-02",
+  "Nome": "TRANSPORTADORA PEIXE BRAVO LTDA",
+  "Situação": "IRREGULAR",
+  "Validade": "-",
+  "Interpretação": "❌ Irregular - Não foi possível emitir a certidão. | Detalhe API: Senhor contribuinte, favor seguir as orientações constantes no protocolo para emissão da CDT - Certidão de Débitos tributários.",
+  "PENDÊNCIAS": "Nenhuma pendência detalhada retornada pela consulta principal.",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/S3qCI2-Jns1gBk2UiBiV_56UIFMevwZTlMZouEAjreU=/1756472139/lF1GPe/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL3NlZmF6L21nL2NlcnRpZGFvLWRlYml0b3MvMjAyNTA4MjIwOTU1MzgvXzZJbVpBOGMwZmVOS0VpZTFBRFJxQjBFU0V6SDByYWcvOTI1ZjkxNTU3YTE3ZmRiZjlhN2ZiMWQ3MTA4MWE1ZDBfMF91S1U=.html"
+}

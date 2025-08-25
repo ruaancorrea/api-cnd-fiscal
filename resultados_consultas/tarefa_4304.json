@@ -1,0 +1,10 @@
+{
+  "CNPJ": "11.934.778/0001-94",
+  "Nome": "MALTA PIO COMERCIO LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Omissão de ECF; Periodo apuracao: 2020\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '3373-01 - IRPJ', 'pa_exercicio': '1º', 'data_vencimento': '30/04/2025', 'normalziado_data_vencimento': '30/04/2025', 'normalizado_data_vencimento': '30/04/2025', 'valor_original': '1.013,21', 'normalizado_valor_original': 1013.21, 'saldo_devedor': '1.013,21', 'normalizado_saldo_devedor': 1013.21, 'situacao': 'DEVEDOR', 'multa': '202,64', 'normalizado_multa': 202.64, 'juros': '45,79', 'normalizado_juros': 45.79, 'saldo_devedor_cons': '1.261,64', 'normalizado_saldo_devedor_cons': 1261.64}, {'receita': '6012-01 - CSLL', 'pa_exercicio': '1º', 'data_vencimento': '30/04/2025', 'normalziado_data_vencimento': '30/04/2025', 'normalizado_data_vencimento': '30/04/2025', 'valor_original': '607,93', 'normalizado_valor_original': 607.93, 'saldo_devedor': '607,93', 'normalizado_saldo_devedor': 607.93, 'situacao': 'DEVEDOR', 'multa': '121,58', 'normalizado_multa': 121.58, 'juros': '27,47', 'normalizado_juros': 27.47, 'saldo_devedor_cons': '756,98', 'normalizado_saldo_devedor_cons': 756.98}]\n  - Tipo: Parcelamento com Exigibilidade Suspensa (SIEFPAR); Cnpj: 11.934.778/0001-94; Parcelamentos: [{'parcelamento': '02110001200823049442535', 'valor_suspenso': '30.299,21', 'tipo': 'Parcelamento Simplificado', 'normalizado_valor_suspenso': 30299.21}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/35XaBYJ349nRVx0WZRyY4cU5TILPntNEEeOirFSqopg=/1756412273/4XpVJN/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTcxNzUzL0VOa0k1bS13WVFrZDMtWnhtRHZjNzFhYkk5b1k0Q1RQLzU3ZjVkODljMjlkNDlhOWJkZjYwYzc2N2RmMzRhYjQ1XzBfRUJR.pdf"
+}

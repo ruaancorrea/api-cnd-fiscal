@@ -1,0 +1,10 @@
+{
+  "CNPJ": "01.638.189/0001-05",
+  "Nome": "MADERPRATA COMERCIO DE MADEIRAS LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Parcelamento com Exigibilidade Suspensa (PARCSN/PARCMEI)\n\n**Pendências na Procuradoria-Geral (PGFN):**\n  - Tipo: Pendência - Inscrição (SIDA); Inscricao: CNPJ: 01.638.189/0001-05; Receita: 1507-SIMPLES; Inscrito em: 17/02/2025; Ajuizado em: ; Processo: 12376.178.909/2025-50; Tipo devedor: DEVEDOR PRINCIPAL; Devedor principal: ; Situacao: ATIVA NAO AJUIZAVEL EM PROCESSO DE NEGOCIACAO NO SISPAR\n  - Tipo: Pendência - Parcelamento (SISPAR); Cnpj: 01.638.189/0001-05; Pendencias: [{'conta': '013499411', 'descricao': 'TRANSACAO POR ADESAO - EDITAL PGDAU N 03/2025 - DESENROLA RURAL', 'modalidade': 'SIMPLES NACIONAL - PESSOA NATURAL/ME/EPP - ATE 60 MESES - SEM REDUCAO'}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/oD4giNSPin3Iuvue_pw_2qhamgHUS-jkDFXrBoikdBs=/1756412678/0hb8FD/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTcyNDM4L1pGTUNtM3E0SDZlemh1SERTTHFtS3AtWU9BYnhQTVFqL2FlZTJlMDhjYWJjMzFkNDQ4Y2IwNDAxODMyNDU5MTBhXzBfQm9R.pdf"
+}

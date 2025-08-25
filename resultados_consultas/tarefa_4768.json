@@ -1,0 +1,10 @@
+{
+  "CNPJ": "32.914.713/0001-57",
+  "Nome": "LOURIVAL JANUARIO MONTEIRO 07447046698",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Parcelamento com Exigibilidade Suspensa (PARCSN/PARCMEI)\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '5440-01 - MAED - DCTFWEB', 'pa_exercicio': '17/12/2024', 'data_vencimento': '16/01/2025', 'normalziado_data_vencimento': '16/01/2025', 'normalizado_data_vencimento': '16/01/2025', 'valor_original': '50,00', 'normalizado_valor_original': 50.0, 'saldo_devedor': '50,00', 'normalizado_saldo_devedor': 50.0, 'situacao': 'DEVEDOR', 'multa': '50,00', 'normalizado_multa': 50.0, 'juros': '3,76', 'normalizado_juros': 3.76, 'saldo_devedor_cons': '53,76', 'normalizado_saldo_devedor_cons': 53.76}]",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/zsPWQM9qP4fBJt7OLFmAN8YLWhLJKybFfavTmGEJcvE=/1756417014/cEJtNH/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTgzNjU0L3E3cXp3cDFUMmJFclc3bW1zd2dZMnpvWVgtTHc4MTJzL2U0OTBkOTM2YzI4MGRjYjgyNjMxZTg2OWE0YjZiZjIzXzBfblpV.pdf"
+}

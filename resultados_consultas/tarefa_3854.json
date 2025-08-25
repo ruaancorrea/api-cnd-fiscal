@@ -1,0 +1,10 @@
+{
+  "CNPJ": "15.864.095/0001-69",
+  "Nome": "AGROPECUARIA POTREIRO LTDA",
+  "Situação": "IRREGULAR",
+  "Tipo": "",
+  "Validade": "-",
+  "Interpretação": "❌ Positiva",
+  "PENDÊNCIAS": "**Pendências na Receita Federal (RFB):**\n  - Tipo: Pendência - Débito (SIEF); Debitos: [{'receita': '2170-01 - MAED - DIRF', 'pa_exercicio': '03/03/2025', 'data_vencimento': '11/04/2025', 'normalziado_data_vencimento': '11/04/2025', 'normalizado_data_vencimento': '11/04/2025', 'valor_original': '200,00', 'normalizado_valor_original': 200.0, 'saldo_devedor': '200,00', 'normalizado_saldo_devedor': 200.0, 'situacao': 'DEVEDOR', 'multa': '200,00', 'normalizado_multa': 200.0, 'juros': '9,04', 'normalizado_juros': 9.04, 'saldo_devedor_cons': '209,04', 'normalizado_saldo_devedor_cons': 209.04}]\n  - Tipo: Débito com Exigibilidade Suspensa (SIEF)",
+  "Link Certidão": "https://us-central1-infosimples-data.cloudfunctions.net/infosimples-storage/5mABRei1dbNwCjvHHl-8GANn7O7MT4d-CIok2uyPAKw=/1756406022/txs5ku/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZm9zaW1wbGVzLWFwaS10bXAvYXBpL2VjYWMvc2l0dWFjYW8tZmlzY2FsLzIwMjUwODIxMTUzMzQyL21DSXB3ejJMQmJIaHJpWGgzZnJVV2Z6dkNoTVl2VFRBLzhkNWQ0OWUwNmMzNDE4ZjhmNzQ3M2QxMDg2NzIxMDdlXzBfNWkw.pdf"
+}
