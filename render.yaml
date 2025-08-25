@@ -1,0 +1,20 @@
+services:
+  # Serviço 1: A API Web
+  - type: web
+    name: api-cnd-fiscal
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn -w 4 -k uvicorn.workers.UvicornWorker api:app"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.7 # Use uma versão próxima da sua
+
+  # Serviço 2: O Worker de Background
+  - type: worker
+    name: api-worker
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python worker.py"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.7
