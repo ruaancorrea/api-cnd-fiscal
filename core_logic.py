@@ -42,18 +42,22 @@ EMAIL_PASS = os.getenv("EMAIL_PASS", "")
 CRYPTOGRAPHY_KEY = os.getenv("CRYPTOGRAPHY_KEY", "")
 EMAIL_ALERTAS_ECAC = os.getenv("EMAIL_ALERTAS_ECAC", EMAIL_USER)
 
+
+DATA_BASE_DIR = Path(os.getenv("DATA_DIR", "."))
+
 # Constantes
-DB_FILE = os.getenv("DATABASE_PATH", "sistema_consultas2.db")
-CERTIFICADOS_DIR = Path("certificados_grupos")
-RESULTADOS_DIR = Path("resultados_consultas")
-ERROS_DIR = Path("erros_consultas")
-DOCUMENTOS_DIR = Path("documentos_empresas")
+DB_FILE = DATA_BASE_DIR / "sistema_consultas2.db"
+CERTIFICADOS_DIR = DATA_BASE_DIR / "certificados_grupos"
+RESULTADOS_DIR = DATA_BASE_DIR / "resultados_consultas"
+ERROS_DIR = DATA_BASE_DIR / "erros_consultas"
+DOCUMENTOS_DIR = DATA_BASE_DIR / "documentos_empresas"
 JSON_LOGS_DIR = Path("json_logs")
 
-CERTIFICADOS_DIR.mkdir(exist_ok=True)
-RESULTADOS_DIR.mkdir(exist_ok=True)
-ERROS_DIR.mkdir(exist_ok=True)
-DOCUMENTOS_DIR.mkdir(exist_ok=True)
+# Garante que os diretórios existam
+CERTIFICADOS_DIR.mkdir(exist_ok=True, parents=True)
+RESULTADOS_DIR.mkdir(exist_ok=True, parents=True)
+ERROS_DIR.mkdir(exist_ok=True, parents=True)
+DOCUMENTOS_DIR.mkdir(exist_ok=True, parents=True)
 JSON_LOGS_DIR.mkdir(exist_ok=True)
 
 MAX_TENTATIVAS = 3

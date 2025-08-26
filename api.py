@@ -5,6 +5,7 @@ import models
 from fastapi import Query
 import json
 from datetime import date
+import os
 
 
 # Altere a inicialização do app para a versão simples:

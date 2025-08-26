@@ -6,8 +6,6 @@ import core_logic
 print("Iniciando o Worker em Background...")
 
 # Inicializa o banco de dados para o worker ter acesso
-core_logic.init_db()
-core_logic.atualizar_banc_de_dados()
 
 # Configura e inicia o scheduler
 scheduler = BackgroundScheduler(daemon=True, timezone='America/Sao_Paulo')
