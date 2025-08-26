@@ -141,38 +141,78 @@ def get_certificate_expiry_date(pfx_data: bytes, password: str) -> datetime:
 # =============================================
 # MÓDULO DE BANCO DE DADOS (COM GRUPOS)
 # =============================================
+
+
 def init_db():
-    with sqlite3.connect(DB_FILE) as conn:
-        c = conn.cursor()
-        c.execute('CREATE TABLE IF NOT EXISTS empresas (id INTEGER PRIMARY KEY AUTOINCREMENT, cnpj TEXT UNIQUE NOT NULL, razao_social TEXT NOT NULL, cep TEXT, criado_em TEXT DEFAULT CURRENT_TIMESTAMP)')
-        c.execute('CREATE TABLE IF NOT EXISTS grupos (id INTEGER PRIMARY KEY AUTOINCREMENT, nome TEXT UNIQUE NOT NULL, certificado_path TEXT, certificado_senha_encrypted BLOB, certificado_vencimento DATE)')
-        c.execute('CREATE TABLE IF NOT EXISTS empresa_grupo (empresa_id INTEGER, grupo_id INTEGER, FOREIGN KEY(empresa_id) REFERENCES empresas(id) ON DELETE CASCADE, FOREIGN KEY(grupo_id) REFERENCES grupos(id) ON DELETE CASCADE, PRIMARY KEY (empresa_id, grupo_id))')
-        c.execute('CREATE TABLE IF NOT EXISTS agendamentos (id INTEGER PRIMARY KEY AUTOINCREMENT, nome_agendamento TEXT NOT NULL, emails_notificacao TEXT NOT NULL, frequencia TEXT NOT NULL, dia_do_mes INTEGER NOT NULL, dias_antecedencia INTEGER DEFAULT 2, ativo INTEGER DEFAULT 1, criado_em TEXT DEFAULT CURRENT_TIMESTAMP, consultas_config TEXT)')
-        c.execute('CREATE TABLE IF NOT EXISTS agendamento_grupo (agendamento_id INTEGER, grupo_id INTEGER, FOREIGN KEY(agendamento_id) REFERENCES agendamentos(id) ON DELETE CASCADE, FOREIGN KEY(grupo_id) REFERENCES grupos(id) ON DELETE CASCADE, PRIMARY KEY (agendamento_id, grupo_id))')
-        c.execute('CREATE TABLE IF NOT EXISTS tarefas_consulta (id INTEGER PRIMARY KEY AUTOINCREMENT, agendamento_id INTEGER, empresa_id INTEGER, tipo_consulta TEXT NOT NULL, status TEXT DEFAULT \'pendente\', tentativas INTEGER DEFAULT 0, data_agendada TEXT NOT NULL, ultima_tentativa TEXT, resultado_path TEXT, detalhes_erro TEXT, ultima_situacao TEXT, execucao_avulsa_id TEXT, config_json TEXT, FOREIGN KEY(empresa_id) REFERENCES empresas(id) ON DELETE CASCADE, FOREIGN KEY(agendamento_id) REFERENCES agendamentos(id) ON DELETE CASCADE)')
-        c.execute('CREATE TABLE IF NOT EXISTS cadastros_pendentes (id INTEGER PRIMARY KEY AUTOINCREMENT, cnpj TEXT UNIQUE NOT NULL, cep TEXT, status TEXT DEFAULT \'pendente\', detalhes_erro TEXT, tentativas INTEGER DEFAULT 0, ultima_tentativa DATETIME)')
-        c.execute('CREATE TABLE IF NOT EXISTS circuit_breakers (tipo_consulta TEXT PRIMARY KEY, consecutive_failures INTEGER DEFAULT 0, open_until DATETIME)')
-        c.execute('CREATE TABLE IF NOT EXISTS documentos_empresa (id INTEGER PRIMARY KEY AUTOINCREMENT, empresa_id INTEGER, tipo_documento TEXT NOT NULL, descricao TEXT, data_vencimento DATE, arquivo_path TEXT NOT NULL, criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP, FOREIGN KEY(empresa_id) REFERENCES empresas(id) ON DELETE CASCADE)')
-        c.execute('CREATE TABLE IF NOT EXISTS empresa_config (empresa_id INTEGER PRIMARY KEY, ecac_frequencia TEXT DEFAULT \'nunca\', FOREIGN KEY(empresa_id) REFERENCES empresas(id) ON DELETE CASCADE)')
-        c.execute('''CREATE TABLE IF NOT EXISTS ecac_mensagens (
-                        id INTEGER PRIMARY KEY AUTOINCREMENT, 
-                        empresa_id INTEGER, 
-                        id_mensagem_api TEXT UNIQUE, 
-                        remetente TEXT, 
-                        assunto TEXT, 
-                        envio_data DATE, 
-                        leitura_data DATE, 
-                        conteudo_html TEXT, 
-                        lida_api BOOLEAN DEFAULT 0, 
-                        marcada_como_lida_usuario BOOLEAN DEFAULT 0,
-                        cnpj_destinatario TEXT,
-                        razao_social_destinatario TEXT,
-                        FOREIGN KEY(empresa_id) REFERENCES empresas(id) ON DELETE CASCADE
-                    )''')
-        c.execute('CREATE TABLE IF NOT EXISTS ecac_alertas_enviados (mensagem_id INTEGER PRIMARY KEY, FOREIGN KEY(mensagem_id) REFERENCES ecac_mensagens(id) ON DELETE CASCADE)')
-        c.execute('CREATE TABLE IF NOT EXISTS status_adicional (empresa_id INTEGER, tipo_status TEXT, situacao TEXT, detalhes TEXT, data_atualizacao TEXT, PRIMARY KEY (empresa_id, tipo_status), FOREIGN KEY(empresa_id) REFERENCES empresas(id) ON DELETE CASCADE)')
-        c.execute('CREATE TABLE IF NOT EXISTS configuracoes_sistema (chave TEXT PRIMARY KEY, valor TEXT)')
-        conn.commit()
+    print("-> [init_db] Iniciando a função.")
+    try:
+        with sqlite3.connect(DB_FILE) as conn:
+            c = conn.cursor()
+            print("-> [init_db] Conexão estabelecida. Criando tabelas...")
+
+            c.execute('CREATE TABLE IF NOT EXISTS empresas (id INTEGER PRIMARY KEY AUTOINCREMENT, cnpj TEXT UNIQUE NOT NULL, razao_social TEXT NOT NULL, cep TEXT, criado_em TEXT DEFAULT CURRENT_TIMESTAMP)')
+            print("-> [init_db] Tabela 'empresas' verificada/criada.")
+
+            c.execute('CREATE TABLE IF NOT EXISTS grupos (id INTEGER PRIMARY KEY AUTOINCREMENT, nome TEXT UNIQUE NOT NULL, certificado_path TEXT, certificado_senha_encrypted BLOB, certificado_vencimento DATE)')
+            print("-> [init_db] Tabela 'grupos' verificada/criada.")
+
+            c.execute('CREATE TABLE IF NOT EXISTS empresa_grupo (empresa_id INTEGER, grupo_id INTEGER, FOREIGN KEY(empresa_id) REFERENCES empresas(id) ON DELETE CASCADE, FOREIGN KEY(grupo_id) REFERENCES grupos(id) ON DELETE CASCADE, PRIMARY KEY (empresa_id, grupo_id))')
+            print("-> [init_db] Tabela 'empresa_grupo' verificada/criada.")
+
+            c.execute('CREATE TABLE IF NOT EXISTS agendamentos (id INTEGER PRIMARY KEY AUTOINCREMENT, nome_agendamento TEXT NOT NULL, emails_notificacao TEXT NOT NULL, frequencia TEXT NOT NULL, dia_do_mes INTEGER NOT NULL, dias_antecedencia INTEGER DEFAULT 2, ativo INTEGER DEFAULT 1, criado_em TEXT DEFAULT CURRENT_TIMESTAMP, consultas_config TEXT)')
+            print("-> [init_db] Tabela 'agendamentos' verificada/criada.")
+
+            c.execute('CREATE TABLE IF NOT EXISTS agendamento_grupo (agendamento_id INTEGER, grupo_id INTEGER, FOREIGN KEY(agendamento_id) REFERENCES agendamentos(id) ON DELETE CASCADE, FOREIGN KEY(grupo_id) REFERENCES grupos(id) ON DELETE CASCADE, PRIMARY KEY (agendamento_id, grupo_id))')
+            print("-> [init_db] Tabela 'agendamento_grupo' verificada/criada.")
+
+            c.execute('CREATE TABLE IF NOT EXISTS tarefas_consulta (id INTEGER PRIMARY KEY AUTOINCREMENT, agendamento_id INTEGER, empresa_id INTEGER, tipo_consulta TEXT NOT NULL, status TEXT DEFAULT \'pendente\', tentativas INTEGER DEFAULT 0, data_agendada TEXT NOT NULL, ultima_tentativa TEXT, resultado_path TEXT, detalhes_erro TEXT, ultima_situacao TEXT, execucao_avulsa_id TEXT, config_json TEXT, FOREIGN KEY(empresa_id) REFERENCES empresas(id) ON DELETE CASCADE, FOREIGN KEY(agendamento_id) REFERENCES agendamentos(id) ON DELETE CASCADE)')
+            print("-> [init_db] Tabela 'tarefas_consulta' verificada/criada.")
+
+            c.execute('CREATE TABLE IF NOT EXISTS cadastros_pendentes (id INTEGER PRIMARY KEY AUTOINCREMENT, cnpj TEXT UNIQUE NOT NULL, cep TEXT, status TEXT DEFAULT \'pendente\', detalhes_erro TEXT, tentativas INTEGER DEFAULT 0, ultima_tentativa DATETIME)')
+            print("-> [init_db] Tabela 'cadastros_pendentes' verificada/criada.")
+
+            c.execute('CREATE TABLE IF NOT EXISTS circuit_breakers (tipo_consulta TEXT PRIMARY KEY, consecutive_failures INTEGER DEFAULT 0, open_until DATETIME)')
+            print("-> [init_db] Tabela 'circuit_breakers' verificada/criada.")
+
+            c.execute('CREATE TABLE IF NOT EXISTS documentos_empresa (id INTEGER PRIMARY KEY AUTOINCREMENT, empresa_id INTEGER, tipo_documento TEXT NOT NULL, descricao TEXT, data_vencimento DATE, arquivo_path TEXT NOT NULL, criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP, FOREIGN KEY(empresa_id) REFERENCES empresas(id) ON DELETE CASCADE)')
+            print("-> [init_db] Tabela 'documentos_empresa' verificada/criada.")
+
+            c.execute('CREATE TABLE IF NOT EXISTS empresa_config (empresa_id INTEGER PRIMARY KEY, ecac_frequencia TEXT DEFAULT \'nunca\', FOREIGN KEY(empresa_id) REFERENCES empresas(id) ON DELETE CASCADE)')
+            print("-> [init_db] Tabela 'empresa_config' verificada/criada.")
+
+            c.execute('''CREATE TABLE IF NOT EXISTS ecac_mensagens (
+                            id INTEGER PRIMARY KEY AUTOINCREMENT, 
+                            empresa_id INTEGER, 
+                            id_mensagem_api TEXT UNIQUE, 
+                            remetente TEXT, 
+                            assunto TEXT, 
+                            envio_data DATE, 
+                            leitura_data DATE, 
+                            conteudo_html TEXT, 
+                            lida_api BOOLEAN DEFAULT 0, 
+                            marcada_como_lida_usuario BOOLEAN DEFAULT 0,
+                            cnpj_destinatario TEXT,
+                            razao_social_destinatario TEXT,
+                            FOREIGN KEY(empresa_id) REFERENCES empresas(id) ON DELETE CASCADE
+                        )''')
+            print("-> [init_db] Tabela 'ecac_mensagens' verificada/criada.")
+            
+            c.execute('CREATE TABLE IF NOT EXISTS ecac_alertas_enviados (mensagem_id INTEGER PRIMARY KEY, FOREIGN KEY(mensagem_id) REFERENCES ecac_mensagens(id) ON DELETE CASCADE)')
+            print("-> [init_db] Tabela 'ecac_alertas_enviados' verificada/criada.")
+
+            c.execute('CREATE TABLE IF NOT EXISTS status_adicional (empresa_id INTEGER, tipo_status TEXT, situacao TEXT, detalhes TEXT, data_atualizacao TEXT, PRIMARY KEY (empresa_id, tipo_status), FOREIGN KEY(empresa_id) REFERENCES empresas(id) ON DELETE CASCADE)')
+            print("-> [init_db] Tabela 'status_adicional' verificada/criada.")
+
+            c.execute('CREATE TABLE IF NOT EXISTS configuracoes_sistema (chave TEXT PRIMARY KEY, valor TEXT)')
+            print("-> [init_db] Tabela 'configuracoes_sistema' verificada/criada.")
+
+            print("-> [init_db] Todas as tabelas foram verificadas. Salvando alterações...")
+        
+        # O 'with' já cuida do conn.commit() e conn.close()
+        print("-> [init_db] Alterações salvas. Função concluída.")
+    except Exception as e:
+        print(f"-> [init_db] OCORREU UM ERRO: {e}")
+        traceback.print_exc()
 
 def atualizar_banco_de_dados():
     print("[ATUALIZAÇÃO DB] Verificando estrutura do banco de dados...")

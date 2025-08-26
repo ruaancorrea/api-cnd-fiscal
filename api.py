@@ -296,3 +296,15 @@ def limpar_mensagens_ecac():
     """Limpa o histórico de todas as mensagens do e-CAC do banco de dados."""
     core_logic.limpar_historico_ecac()
     return {"message": "Histórico de mensagens do e-CAC foi limpo com sucesso."}
+
+
+
+@app.get("/sistema/verificar-banco", tags=["Sistema"])
+def verificar_banco():
+    """Verifica se a tabela principal do banco de dados existe."""
+    try:
+        with core_logic.sqlite3.connect(core_logic.DB_FILE) as conn:
+            conn.execute("SELECT id FROM empresas LIMIT 1")
+        return {"status": "SUCESSO", "message": "O banco de dados está inicializado e a tabela 'empresas' existe."}
+    except Exception as e:
+        return {"status": "FALHA", "message": f"O banco de dados parece não estar inicializado. Erro: {str(e)}"}
