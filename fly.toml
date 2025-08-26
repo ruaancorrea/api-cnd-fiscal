@@ -1,14 +1,17 @@
-# fly.toml (VERSÃO FINAL E CORRETA)
+# fly.toml (VERSÃO FINAL COM PACOTE DO SISTEMA)
 
 app = 'api-cnd'
 primary_region = 'gru'
 
 [build]
   builder = "paketobuildpacks/builder:base"
+  # Adiciona a instrução para instalar o SQLite no sistema operacional
+  [build.args]
+    BUILD_PACKAGES = "sqlite"
 
 [processes]
   app = "gunicorn -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8080 api:app"
-  worker = "python worker.py" # <-- Comando do worker corrigido para o padrão
+  worker = "python worker.py"
 
 [mounts]
   source = "data"
