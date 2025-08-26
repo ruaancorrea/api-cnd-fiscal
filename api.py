@@ -15,6 +15,26 @@ app = FastAPI(
     # A linha "lifespan=lifespan" foi removida
 )
 
+
+
+SETUP_KEY = os.getenv("SETUP_KEY", "trocar-essa-chave-secreta")
+
+@app.post("/sistema/inicializar-banco", tags=["Sistema"], include_in_schema=False)
+def inicializar_banco(key: str):
+    """
+    Endpoint protegido para inicializar o banco de dados pela primeira vez.
+    'include_in_schema=False' o esconde da documentação pública.
+    """
+    if key != SETUP_KEY:
+        raise HTTPException(status_code=403, detail="Chave de setup inválida.")
+
+    try:
+        print("Iniciando a criação da estrutura do banco de dados via API...")
+        core_logic.init_db()
+        return {"status": "Banco de dados inicializado com sucesso."}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Erro ao inicializar o banco de dados: {str(e)}")
+
 # --- TAG: Dashboard ---
 @app.get("/dashboard/metrics", response_model=models.DashboardMetrics, tags=["Dashboard"])
 def get_metrics():
