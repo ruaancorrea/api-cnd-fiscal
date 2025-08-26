@@ -1,13 +1,11 @@
-# render.yaml (VERSÃO FINAL E CORRETA DA ESTRUTURA)
+# render.yaml (VERSÃO FINAL, CORRIGIDA E VALIDADA)
 
-# Declara os recursos que serão compartilhados primeiro
 disks:
-  - name: data            # Nome do nosso disco persistente
-    sizeGB: 1           # Tamanho do disco (1GB está no plano gratuito)
-    mountPath: /var/data  # Onde o disco será "montado"
+  - name: data       # Define o disco
+    sizeGB: 1       # Define o tamanho (gratuito)
 
 services:
-  # Serviço 1: A API Web, que usa o disco 'data'
+  # Serviço 1: A API Web
   - type: web
     name: api-cnd-fiscal
     env: python
@@ -17,13 +15,13 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.7
-      - key: DATABASE_PATH # Aponta para o banco de dados no disco
+      - key: DATABASE_PATH
         value: /var/data/sistema_consultas2.db
-    disk:
-      name: data # Diz a este serviço para USAR o disco 'data'
-      mountPath: /var/data # E onde montá-lo
+    disks: # <-- CORRIGIDO para plural
+      - name: data # Diz a este serviço para usar o disco 'data'
+        mountPath: /var/data # E onde montá-lo
 
-  # Serviço 2: O Worker de Background, que usa o mesmo disco 'data'
+  # Serviço 2: O Worker de Background
   - type: worker
     name: api-worker
     env: python
@@ -33,8 +31,8 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.7
-      - key: DATABASE_PATH # Aponta para o mesmo banco de dados
+      - key: DATABASE_PATH
         value: /var/data/sistema_consultas2.db
-    disk:
-      name: data # Diz a este serviço para USAR o mesmo disco 'data'
-      mountPath: /var/data # E onde montá-lo
+    disks: # <-- CORRIGIDO para plural
+      - name: data # Diz a este serviço para usar o mesmo disco 'data'
+        mountPath: /var/data # E onde montá-lo
