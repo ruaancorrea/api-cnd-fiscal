@@ -51,14 +51,14 @@ CERTIFICADOS_DIR = DATA_BASE_DIR / "certificados_grupos"
 RESULTADOS_DIR = DATA_BASE_DIR / "resultados_consultas"
 ERROS_DIR = DATA_BASE_DIR / "erros_consultas"
 DOCUMENTOS_DIR = DATA_BASE_DIR / "documentos_empresas"
-JSON_LOGS_DIR = Path("json_logs")
+JSON_LOGS_DIR = DATA_BASE_DIR / "json_logs" # <-- Correto, agora também usa a pasta base
 
 # Garante que os diretórios existam
 CERTIFICADOS_DIR.mkdir(exist_ok=True, parents=True)
 RESULTADOS_DIR.mkdir(exist_ok=True, parents=True)
 ERROS_DIR.mkdir(exist_ok=True, parents=True)
 DOCUMENTOS_DIR.mkdir(exist_ok=True, parents=True)
-JSON_LOGS_DIR.mkdir(exist_ok=True)
+JSON_LOGS_DIR.mkdir(exist_ok=True, parents=True)
 
 MAX_TENTATIVAS = 3
 FAILURE_THRESHOLD = 3
