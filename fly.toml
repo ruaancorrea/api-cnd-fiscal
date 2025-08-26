@@ -6,17 +6,14 @@ primary_region = 'gru'
 [build]
   builder = "paketobuildpacks/builder:base"
 
-# Define os comandos diretos e completos para cada processo
 [processes]
   app = "gunicorn -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8080 api:app"
-  worker = ".venv/bin/python worker.py"
+  worker = "python worker.py" # <-- Comando do worker corrigido para o padrão
 
-# Monta o disco persistente que será usado pelos serviços
 [mounts]
   source = "data"
   destination = "/data"
 
-# Define o serviço WEB, que vai rodar o processo 'app'
 [[services]]
   processes = ["app"]
   protocol = "tcp"
@@ -35,7 +32,6 @@ primary_region = 'gru'
     cpus = 1
     memory_mb = 1024
 
-# Define o serviço WORKER, que vai rodar o processo 'worker'
 [[services]]
   processes = ["worker"]
   
